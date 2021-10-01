@@ -10,4 +10,5 @@ task.addlist("Pickup glasses from shop");
 task.addlist("visit gym");
 task.addlist("Buy bulbs");
 task.update_status(2);
+task.get_id(2);
 task.print_all();

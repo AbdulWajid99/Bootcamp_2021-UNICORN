@@ -24,5 +24,8 @@ class TodoList {
     print_all() {
         this.listItems.forEach((item) => item.print_details());
     }
+    get_id(task_id) {
+        return this.itemMap.get(task_id);
+    }
 }
 exports.TodoList = TodoList;
