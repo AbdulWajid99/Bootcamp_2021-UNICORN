@@ -1,0 +1,14 @@
+{
+  "name": "@wajid.linux/wajid",
+  "version": "1.0.0",
+  "description": "First npm package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abdul Wajid",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^16.10.2"
+  }
+}
